@@ -4,8 +4,56 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>JavaScript Projects</title>
+		<!-- Meta -->
+		<meta name="author" content="Nazar Pasechnyi" />
+		<meta
+			name="description"
+			content="Welcome! Here are my small JS projects. Each project has its own page on GitHub Pages."
+		/>
+		<!-- OG -->
+		<meta property="og:title" content="JavaScript Projects" />
+		<meta property="og:type" content="website" />
+		<meta
+			property="og:description"
+			content="Welcome! Here are my small JS projects. Each project has its own page on GitHub Pages."
+		/>
+		<!-- CSS -->
+		<link rel="stylesheet" href="index.css" />
+		<!-- FavIcon -->
+		<link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
 	</head>
 	<body>
-		<a href="/guess-number-game/index.html">Guess Number Game</a>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					<div class="header__inner">
+						<h1 class="header__title">JavaScript Projects</h1>
+					</div>
+				</div>
+			</header>
+			<main class="main">
+				<section class="projects">
+					<div class="projects__container">
+						<div class="projects__inner">
+							<div class="projects__list list-project">
+								<a
+									href="JavaScriptProjects/guess-number-game/index.html"
+									target="_blank"
+									class="list-project__item"
+								>
+									<img
+										src="./guess-number-game/screenshot.png"
+										width="400"
+										height="400"
+										alt="Guess Number game"
+									/>
+									<h3 class="list-project__title">Guess Number Game</h3>
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
 	</body>
 </html>
