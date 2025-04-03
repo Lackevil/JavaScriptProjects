@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+input,
+button {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-size: 1.8rem;
+	font-family: Arial, sans-serif;
+	background: #fefae0;
+	color: #283618;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .main {
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */
+
+/* Game */
+
+.game {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.game__title {
+	font-size: 3.6rem;
+	margin-bottom: 2rem;
+}
+
+/* .game__riddle {
+  font-weight: 00;
+} */
+
+.game__riddle::before,
+.game__riddle::after {
+  content: '"';
+}
+
+/* .game__tries {
+} */
+
+.game__hints {
+	margin-bottom: 2rem;
+}
+
+.game__action {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.game__input,
+.game__btn {
+	padding: 10px 20px;
+	background: none;
+	border: 2px solid #283618;
+	border-radius: 5px;
+}
+
+/* .game__input {
+  } */
+
+/* .game__input::placeholder {
+} */
+
+.game__btn {
+	transition: 0.2s ease opacity;
+	background: #606c38;
+	color: #fefae0;
+}
+
+.game__btn:hover {
+	opacity: 0.8;
+}
+
+.game__btn:active {
+	opacity: 0.6;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Guess Riddle</title>
+		<!-- Meta -->
+		<meta name="author" content="Nazar Pasechnyi">
+		<meta name="description" content="Guess Number Game. This is one of my projects in JavaScript.">
+		<!-- OG -->
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Guess Number Game">
+		<meta property="og:description" content="Guess Number Game. This is one of my projects in JavaScript.">
+		<!-- CSS -->
+		 <link rel="stylesheet" href="css/index.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<main class="main">
+				<section class="game">
+					<h1 class="game__title">Guess Riddle</h1>
+					<p class="game__riddle" id="riddle"></p>
+					<p class="game__tries" id="tries"></p>
+					<p class="game__hints" id="hints"></p>
+					<form action="#" class="game__action">
+						<input
+							type="text"
+							class="game__input"
+							id="userAnswer"
+							placeholder="guess"
+						/>
+						<button type="submit" class="game__btn" id="checkBtn">Check</button>
+					</form>
+				</section>
+			</main>
+			<!-- JS -->
+			<script src="js/main.js"></script>
+	</body>
+</html>
