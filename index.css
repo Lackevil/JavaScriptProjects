@@ -105,10 +105,19 @@ body {
 }
 
 .list-project__item {
-	display: block;
+	display: flex;
+	flex-direction: column;
 	border: 2px solid #283618;
 	border-radius: 5px;
 	flex: 0 1 48%;
+}
+
+.list-project__item > img {
+	flex: 1 1 auto;
+	object-fit: cover;
+	width: 100%;
+	height: auto;
+	display: block;
 }
 
 .list-project__title {
