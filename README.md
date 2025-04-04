@@ -9,7 +9,10 @@ You can see them live on a separate page:
 
 ## 📸 Screenshots
 ### Guess Number Game
-![Guess Number Game](/guess-number-game/screenshot.png)
+<img src="https://lackevil.github.io/JavaScriptProjects/guess-number-game/screenshot.png" width="800px">
+
+### Guess Riddle
+<img src="https://lackevil.github.io/JavaScriptProjects/riddles/screenshot.png" width="800px">
 
 ### 🛠 Technologies
 - HTML, CSS, JavaScript
