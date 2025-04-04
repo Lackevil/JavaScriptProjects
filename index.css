@@ -148,7 +148,7 @@ body {
 /* ----------- Footer ----------- */
 
 .footer {
-  padding: 30px 0;
+	padding: 30px 0;
 }
 
 /* .footer__container {
@@ -158,8 +158,8 @@ body {
 } */
 
 .footer__copyrights {
-  text-align: center;
-  font-size: 1.5rem;
+	text-align: center;
+	font-size: 1.5rem;
 }
 
 /* ----------- Footer ----------- */
