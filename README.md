@@ -6,6 +6,7 @@ You can see them live on a separate page:
 
 ## 🔗 List of projects:
 1. [Project 1 - Guess Number Game](/guess-number-game)
+2. [Project 2 - Guess Riddles](/riddles)
 
 ## 📸 Screenshots
 ### Guess Number Game
